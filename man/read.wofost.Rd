@@ -10,10 +10,11 @@ read.wofost(file)
 \item{file}{The name of the file which the data are to be read from.
 Valid extensions are: *.out, *.pps, or *.wps}
 }
+\value{
+Returns a \code{list} when reading detailed crop outputs, otherwise a
+\code{data.frame} is generated.
+}
 \description{
 Read WOFOST output files (*.out, *.pps, or *.wps) into \R{}
-}
-\seealso{
-\code{\link{tt2df}}
 }
 
