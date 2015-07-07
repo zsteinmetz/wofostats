@@ -1,10 +1,14 @@
 Package: wofostats
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Handling WOFOST model files
 Version: 0.1
 Date: 2015-07-06
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Zacharias Steinmetz
+Maintainer: Zacharias Steinmetz <stei4785@uni-landau>
+Description: WOFOST (WOrld FOod STudies) is a simulation model for the
+  quantitative analysis of the growth and production of annual field crops.
+  This packages provides functions to handle WOFOST parameter input files and
+  model results using R.
+Encoding: UTF-8
+License: GPL-3
 LazyData: TRUE
