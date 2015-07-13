@@ -9,7 +9,7 @@ tests/
 # RStudio files
 .Rproj.user
 .RData
-envalysis.Rproj
+*.Rproj
 
 # produced vignettes
 vignettes/*.html
