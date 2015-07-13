@@ -18,7 +18,7 @@ read.wofost <- function(file) {
 
   if (grepl("\\.pps$|\\.wps$", file)) {
     text <- readLines(file)
-    out <- read.table(textConnection(text),
+    out <- read.table(text = text,
                       skip = grep("RUNNAM", text))
     names(out) <- unlist(strsplit(text[grep("RUNNAM", text)], "\\s+"))[-1]
   }
@@ -39,6 +39,11 @@ read.wofost <- function(file) {
       dates <- unique(na.omit(as.numeric(unlist(strsplit(current[grep("START", current)+1], "[^0-9]+")))))
       dates[dates==99] <- NA
       type <- tolower(trimws(grep("CROP PRODUCTION", current, value = T)))
+
+      if (any(grepl("no living leaves", current))) {
+        current <- current[-grep("no living leaves", current)]
+        warning(paste("no living leaves (anymore) in ", name, ", ", type, sep=""))
+      }
 
       df <- read.table(text = current,
                        skip = grep("YEAR", current)+2,

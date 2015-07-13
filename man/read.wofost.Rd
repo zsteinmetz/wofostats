@@ -11,7 +11,7 @@ read.wofost(file)
 Valid extensions are: *.out, *.pps, or *.wps}
 }
 \value{
-Returns a \code{list} when reading detailed crop outputs, otherwise a
+Returns a \code{list} when reading detailed crop outputs (*.out), otherwise a
 \code{data.frame} is generated.
 }
 \description{

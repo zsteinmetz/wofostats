@@ -8,7 +8,7 @@
 \description{
 WOFOST (WOrld FOod STudies) is a simulation model for the quantitative
 analysis of the growth and production of annual field crops.
-This packages provides functions to handle WOFOST parameter input files and
+This package provides functions to handle WOFOST parameter input files and
 model results using \R{}.
 }
 \details{
