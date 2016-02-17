@@ -6,9 +6,10 @@ Date: 2015-07-06
 Author: Zacharias Steinmetz
 Maintainer: Zacharias Steinmetz <stei4785@uni-landau>
 Description: WOFOST (WOrld FOod STudies) is a simulation model for the
-  quantitative analysis of the growth and production of annual field crops.
-  This package provides functions to handle WOFOST parameter input files and
-  model results using R.
+    quantitative analysis of the growth and production of annual field crops.
+    This package provides functions to handle WOFOST parameter input files and
+    model results using R.
 Encoding: UTF-8
 License: GPL-3
 LazyData: TRUE
+RoxygenNote: 5.0.1

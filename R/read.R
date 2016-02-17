@@ -2,8 +2,6 @@
 #'
 #' @description
 #' Read WOFOST output files (*.out, *.pps, or *.wps) into \R{}
-#' @usage
-#' read.wofost(file)
 #'
 #' @param file The name of the file which the data are to be read from.
 #' Valid extensions are: *.out, *.pps, or *.wps
