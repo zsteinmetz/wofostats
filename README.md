@@ -1,7 +1,6 @@
 wofostats
 =========
-[![Project Status: Suspended - Initial development has started, but there has not yet been a stable, usable release; work has been stopped for the time being but the author(s) intend on resuming work.](http://www.repostatus.org/badges/latest/suspended.svg)](http://www.repostatus.org/#suspended)
-[![Travis-CI Build Status](https://travis-ci.org/zsteinmetz/wofostats.svg?branch=master)](https://travis-ci.org/zsteinmetz/wofostats)
+[![Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired.](https://www.repostatus.org/badges/latest/unsupported.svg)](https://www.repostatus.org/#unsupported)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
 WOFOST ([WOrld FOod STudies by Alterra Wageningen](http://www.wageningenur.nl/en/Expertise-Services/Research-Institutes/alterra/Facilities-Products/Software-and-models/WOFOST.htm)) is a simulation model for the quantitative analysis of the growth and production of annual field crops. The `wofostats` package provides functions to handle WOFOST parameter input files and model results.
